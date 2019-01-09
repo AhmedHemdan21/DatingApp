@@ -20,7 +20,7 @@ name:string;
         this.model = {};
       },
       error => {
-        console.log("Failed to login");
+        console.log(error);
       }
     );
   }
